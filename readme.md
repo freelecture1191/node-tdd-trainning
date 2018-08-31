@@ -5,6 +5,14 @@
 [데이터베이스 부분까지 완성된 소스코드](https://github.com/jeonghwan-kim/lecture-node-api)는 [김정환님의 GitHub](https://github.com/jeonghwan-kim)
 에 있습니다
 
+## 슬라이스 참조
+[T아카데미 슬라이스](https://slides.com/jeonghwan/nodejs-restapi-server-tacademy#/)
+[양재동 코드랩 슬라이스](https://slides.com/jeonghwan/nodejs-api-server#/)
+
+## 김정환님의 NodeJS를 이용한 API 서버만들기
+1. [NodeJS를 이용한 API 서버만들기 1](http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-01/)
+2. [NodeJS를 이용한 API 서버만들기 2](http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-02/)
+
 ## Document List
 1. [REST API 이해와 설계](/document/document1.md)
 2. [TDD로 API 서버 개발-1](/document/document2.md)
