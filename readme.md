@@ -6,8 +6,8 @@
 에 있습니다
 
 ## 슬라이스 참조
-[T아카데미 슬라이스](https://slides.com/jeonghwan/nodejs-restapi-server-tacademy#/)
-[양재동 코드랩 슬라이스](https://slides.com/jeonghwan/nodejs-api-server#/)
+1. [T아카데미 슬라이스](https://slides.com/jeonghwan/nodejs-restapi-server-tacademy#/)
+2. [양재동 코드랩 슬라이스](https://slides.com/jeonghwan/nodejs-api-server#/)
 
 ## 김정환님의 NodeJS를 이용한 API 서버만들기
 1. [NodeJS를 이용한 API 서버만들기 1](http://webframeworks.kr/tutorials/nodejs/api-server-by-nodejs-01/)
