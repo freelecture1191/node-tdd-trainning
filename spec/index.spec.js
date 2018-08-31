@@ -58,6 +58,17 @@ describe('GET /users/:id', () => {
     })
   })
   describe('실패', () => {
-    it('id가 숫자가 아닐경우 400 응답')
+    it('id가 숫자가 아닐경우 400 응답', (done) => {
+      request(app)
+        .get('/users/one')
+        .expect(400)
+        .end(done)
+    })
+    it('찾을수 없는 id일 경우 404 응답', (done) => {
+      request(app)
+        .get('/users/9')
+        .expect(404)
+        .end(done)
+    })
   })
 })

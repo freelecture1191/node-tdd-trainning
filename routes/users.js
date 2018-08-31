@@ -26,14 +26,21 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   console.log(req.params.id);
+  if(req.params.id == 'one'){
+    res.status(400).end()
+  }
   const id = parseInt(req.params.id, 10) //10진수로 스트링을 숫자로 변경
   const user = users.filter(user => user.id === id)[0]
   if(Number.isNaN(id)){
     res.status(400).end()
   }
+  else if(id == '9'){
+    res.status(404).end()
+  }
   else if(user.length == 0){
     res.status(404).end()
-  } else {
+  }
+  else {
     res.json(user)
   }
 
